@@ -19,7 +19,8 @@ module.exports = function (config) {
                 if (i === config.allowed_origins_list.length || !req.headers.origin) {
                     res.setHeader('Access-Control-Allow-Origin', config.allowed_origins);
                 }
-            } else {
+            }
+            else {
                 res.setHeader('Access-Control-Allow-Origin', config.allowed_origins);
             }
         }
