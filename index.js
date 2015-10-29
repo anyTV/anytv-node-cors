@@ -9,7 +9,7 @@ module.exports = function (config) {
         if (config.allowed_origins_list) {
             for (i = 0; i < config.allowed_origins_list.length; i++) {
                 if (req.headers.origin && req.headers.origin.match(config.allowed_origins_list[i])) {
-                    res.setHeader('Access-Control-Allow-Credentials', config.allow_credentials);
+                    res.setHeader('Access-Control-Allow-Credentials', config.allow_credentials? true : false);
                     res.setHeader('Access-Control-Allow-Origin', req.headers.origin);
                     break;
                 }
