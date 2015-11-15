@@ -1,7 +1,7 @@
 # anytv-node-cors
 
 [![Build Status](https://travis-ci.org/anyTV/anytv-node-cors.svg?branch=master)](https://travis-ci.org/anyTV/anytv-node-cors)
-[![Coverage Status](https://coveralls.io/repos/anyTV/anytv-node-cors/badge.svg?branch=master&service=github&t)](https://coveralls.io/github/anyTV/anytv-node-cors?branch=master)
+[![Coverage Status](https://coveralls.io/repos/anyTV/anytv-node-cors/badge.svg?branch=master&service=github)](https://coveralls.io/github/anyTV/anytv-node-cors?branch=master)
 [![Dependencies](https://david-dm.org/anyTV/anytv-node-cors.svg)](https://david-dm.org/anyTV/anytv-node-cors)
 [![npm version](https://badge.fury.io/js/anytv-node-cors.svg)](https://badge.fury.io/js/anytv-node-cors)
 
