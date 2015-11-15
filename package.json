@@ -1,11 +1,8 @@
 {
   "name": "anytv-node-cors",
-  "version": "0.0.6",
-  "description": "express CORS middleware",
+  "version": "0.0.7",
+  "description": "Express CORS middleware",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/anyTV/anytv-node-cors.git"
@@ -19,5 +16,17 @@
   "bugs": {
     "url": "https://github.com/anyTV/anytv-node-cors/issues"
   },
-  "homepage": "https://github.com/anyTV/anytv-node-cors"
+  "homepage": "https://github.com/anyTV/anytv-node-cors",
+  "devDependencies": {
+    "istanbul": "^0.4.0",
+    "chai": "^3.4.1",
+    "coveralls": "^2.11.4",
+    "mocha": "^2.3.3",
+    "mocha-lcov-reporter": "^1.0.0"
+  },
+  "scripts": {
+    "test": "make test",
+    "coverage": "export NODE_ENV=test && istanbul cover _mocha -- --recursive -R spec -t 5000 -s 100",
+    "test-dev": "export NODE_ENV=test && mocha --watch --recursive -R spec -t 5000 -s 100"
+  }
 }
