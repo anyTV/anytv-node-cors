@@ -17,7 +17,7 @@ npm install anytv-node-cors --save
 # Usage
 
 ### Setting the middlware
-On your index.js / server.js / app.js, register your database using a key.
+On your index.js / server.js / app.js, register the middleware.
 ```javascript
 import cors from 'anytv-node-cors';
 import express from 'express';
